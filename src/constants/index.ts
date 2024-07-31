@@ -23,12 +23,9 @@ import {
   figma,
   docker,
   meta,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
-  threejs,
   springboot,
   nextjs,
 } from "../assets";
