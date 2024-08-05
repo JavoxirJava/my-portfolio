@@ -8,6 +8,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import nextjs from "./tech/next-js.png";
+import fullStack from "./tech/full-satck-3.jpg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -31,12 +32,17 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import messengers from "./tech/messengers.png";
+import messenger2 from "./tech/messengers2.png";
+import renaissance from "./tech/renaissance.png";
+import skells from "./tech/skells.png";
 
 export {
   logo,
   backend,
   springboot,
   nextjs,
+  fullStack,
   creator,
   mobile,
   web,
@@ -63,4 +69,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  messengers,
+  messenger2,
+  renaissance,
+  skells,
 };

@@ -22,12 +22,12 @@ import {
   git,
   figma,
   docker,
-  meta,
-  carrent,
-  jobit,
-  tripguide,
   springboot,
   nextjs,
+  renaissance,
+  messengers,
+  messenger2,
+  skells,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -163,7 +163,7 @@ const experiences: TExperience[] = [
   {
     title: "Full stack Developer",
     companyName: "Meta",
-    icon: meta,
+    icon: backend,
     iconBg: "#E6DEDD",
     date: "September 2021 - May 2022",
     points: [
@@ -179,7 +179,7 @@ const experiences: TExperience[] = [
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Javohir proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -187,7 +187,7 @@ const testimonials: TTestimonial[] = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Javohir does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -195,77 +195,95 @@ const testimonials: TTestimonial[] = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Javohir optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
+  
 ];
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Renaissance",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A website has been prepared for Tashkent renaissance private university. It is possible to register online from the site and take the test, study according to the test result",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Postgresql",
         color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
-    ],
-    image: carrent,
-    sourceCodeLink: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
+        name: "Java",
         color: "pink-text-gradient",
       },
+      {
+        name: "Spring boot",
+        color: "blue-text-gradient",
+      },
     ],
-    image: jobit,
-    sourceCodeLink: "https://github.com/",
+    image: renaissance,
+    sourceCodeLink: "https://github.com/JavoxirJava",
   },
   {
-    name: "Trip Guide",
+    name: "Messengers",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The cool look for messengers is just for practice. in this case, you can place your messengers in this way, for example, if you put the address of this site on your Instagram page, all your messengers will be able to win",
     tags: [
       {
-        name: "nextjs",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "css",
         color: "green-text-gradient",
+      },
+    ],
+    image: messengers,
+    sourceCodeLink: "https://github.com/JavoxirJava/messengrs",
+  },
+  {
+    name: "Messengers 2",
+    description:
+      "The cool look for messengers is just for practice. in this case, you can place your messengers in this way, for example, if you put the address of this site on your Instagram page, all your messengers will be able to win",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
       },
       {
         name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    image: messenger2,
+    sourceCodeLink: "https://github.com/JavoxirJava/messengrs2",
+  },
+  {
+    name: "Skills",
+    description:
+      "in this you can show any technology you know with interest and animation. This is often used on portfolio sites to show off the technology you know in chrome, here's one that you can adapt to your site.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: skells,
+    sourceCodeLink: "https://github.com/JavoxirJava/html-level",
   },
 ];
 
