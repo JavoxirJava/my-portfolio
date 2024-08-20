@@ -28,6 +28,8 @@ import {
   messengers,
   messenger2,
   skells,
+  oleo,
+  identist,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -233,6 +235,64 @@ const projects: TProject[] = [
     ],
     image: renaissance,
     sourceCodeLink: "https://github.com/JavoxirJava",
+  },
+  {
+    name: "Oleo butter",
+    description:
+      "The site was made for a company that sells oleo oil. Currently, the domain and server are gone, but it is available on my github page. It was made in 2022.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Postgresql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Java",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Spring boot",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: oleo,
+    sourceCodeLink: "https://github.com/JavoxirJava/oleo-next.js",
+  },
+  {
+    name: "Dentist",
+    description:
+      "I wrote this site for a stomatologist friend of mine. On this site, you can get information about stomatology, and I have an admin panel. The site was created in 2022",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Postgresql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Java",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Spring boot",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: identist,
+    sourceCodeLink: "https://github.com/JavoxirJava/identist-front",
   },
   {
     name: "Messengers",

@@ -36,6 +36,8 @@ import messengers from "./tech/messengers.png";
 import messenger2 from "./tech/messengers2.png";
 import renaissance from "./tech/renaissance.png";
 import skells from "./tech/skells.png";
+import oleo from "./tech/oleo.png";
+import identist from "./tech/identes.png";
 
 export {
   logo,
@@ -72,5 +74,7 @@ export {
   messengers,
   messenger2,
   renaissance,
+  oleo,
+  identist,
   skells,
 };
