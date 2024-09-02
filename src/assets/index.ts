@@ -38,6 +38,7 @@ import renaissance from "./tech/renaissance.png";
 import skells from "./tech/skells.png";
 import oleo from "./tech/oleo.png";
 import identist from "./tech/identes.png";
+import itHouse from "./tech/ithouse.png";
 
 export {
   logo,
@@ -77,4 +78,5 @@ export {
   oleo,
   identist,
   skells,
+  itHouse,
 };

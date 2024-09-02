@@ -30,6 +30,7 @@ import {
   skells,
   oleo,
   identist,
+  itHouse,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -264,6 +265,39 @@ const projects: TProject[] = [
     ],
     image: oleo,
     sourceCodeLink: "https://github.com/JavoxirJava/oleo-next.js",
+  },
+  {
+    name: "IT House Education",
+    description:
+      `(ithouseedu.uz) You can get other information about the teachers of open classes on the website of the educational center focused on IT and sciences located in Tashkent.`,
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Postgresql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Django",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: itHouse,
+    sourceCodeLink: "https://ithouseedu.uz/",
   },
   {
     name: "Dentist",
